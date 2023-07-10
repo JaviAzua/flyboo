@@ -8,6 +8,11 @@ import getCurrentUser from "./actions/getCurrentUser";
 import RentModal from "@/components/modals/RentModal";
 import SearchModal from "@/components/modals/SearchModal";
 
+export const metadata = {
+  title: "Flyboo!",
+  description: "Flyboo for rent and flyboo your home!",
+};
+
 const nunito = Nunito({
   subsets: ["latin"],
 });
